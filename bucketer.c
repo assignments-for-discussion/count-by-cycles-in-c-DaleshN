@@ -27,8 +27,6 @@ struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
   }
   return counts;
 }
-  return counts;
-}
 
 void testBucketingByNumberOfCycles() {
   const int chargeCycleCounts[] = {100, 300, 500, 600, 900, 1000, 0, 150, 650};
